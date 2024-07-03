@@ -1,0 +1,13 @@
+{
+  "name": "Cloud9 IDE",
+  "dockerFile": "Dockerfile",
+  "appPort": [8080],
+  "remoteUser": "vscode",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "c9.ide.run",
+    "c9.ide.installer"
+  ]
+}
